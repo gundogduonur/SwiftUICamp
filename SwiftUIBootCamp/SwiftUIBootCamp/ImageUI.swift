@@ -9,16 +9,16 @@ import SwiftUI
 
 struct ImageUI: View {
     var body: some View {
-        Image("apple")
+        VStack{
+        Image("appleLogo")
             .resizable()
-            .renderingMode(.none)
-            .foregroundColor(.green)
+            .renderingMode(.original)
             .aspectRatio(contentMode: .fit)
             //.cornerRadius(120)
         //.clipped()
-            .clipShape(
-            Circle()
-            )
+            .clipShape(Circle())
+            .overlay(Circle().stroke(Color.gray,lineWidth: 2))
+        }
     }
 }
 
