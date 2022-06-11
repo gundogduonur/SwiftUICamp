@@ -9,11 +9,14 @@ import SwiftUI
 
 struct FrameUI: View {
     var body: some View {
-        Text("Hello SwiftUI!")
-            //.frame(width: 150, height: 150, alignment: .leading)
-            .background(Color.blue)
-            .frame(maxWidth:.infinity,alignment: .center)
-            .background(Color.yellow)
+        VStack
+        {
+            Image("appleLogo")
+                .frame(width:UIScreen.main.bounds.width * 0.8,
+                       height: UIScreen.main.bounds.height * 0.5)
+                .aspectRatio(contentMode: .fit)
+                
+        }
     }
 }
 
