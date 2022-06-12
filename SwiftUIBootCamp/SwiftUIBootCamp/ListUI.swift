@@ -10,14 +10,19 @@ import SwiftUI
 struct ListUI: View {
     let myArray = ["Swift","SwiftUI","Apple","IOS"]
     var body: some View {
-        List
+       /* List
         {
             ForEach(myArray, id: \.self) { value in
                 Text(value)
             }
+        */
+        List(userArray)
+        {
+            user in Text(user.role)
+        }
         }
     }
-}
+
 
 struct ListUI_Previews: PreviewProvider {
     static var previews: some View {
