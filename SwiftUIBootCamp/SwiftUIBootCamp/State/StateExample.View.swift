@@ -12,7 +12,13 @@ struct StateExample_View: View {
     var body: some View {
 
         VStack{
-            TextField("Fullname..", text : self.$name)
+            TextField("Please enter name..", text : self.$name)
+                .padding()
+                .frame(width:UIScreen.main.bounds.width * 0.8)
+                .multilineTextAlignment(.center)
+            
+            Text("Name:\(name)")
+                .font(.headline)
                 .padding()
         }
     }
