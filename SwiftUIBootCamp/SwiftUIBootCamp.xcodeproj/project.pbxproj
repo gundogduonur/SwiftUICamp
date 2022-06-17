@@ -12,6 +12,8 @@
 		AC6CC37B2826FFEA00A0B341 /* FunctionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37A2826FFEA00A0B341 /* FunctionUI.swift */; };
 		AC6CC37D2827038600A0B341 /* SubviewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37C2827038600A0B341 /* SubviewUI.swift */; };
 		AC6CC37F2827087900A0B341 /* BindingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37E2827087800A0B341 /* BindingUI.swift */; };
+		AC86CE9F285CBA5F00D7B46A /* SectionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CE9E285CBA5E00D7B46A /* SectionUI.swift */; };
+		AC86CEA2285CC3D200D7B46A /* StateExample.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC86CEA1285CC3D200D7B46A /* StateExample.View.swift */; };
 		AC8B87B5280D838F00AD4C8F /* FrameUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B87B4280D838F00AD4C8F /* FrameUI.swift */; };
 		AC8B87B7280D867700AD4C8F /* OverlayUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B87B6280D867700AD4C8F /* OverlayUI.swift */; };
 		AC8B87B9280D970400AD4C8F /* StackUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8B87B8280D970400AD4C8F /* StackUI.swift */; };
@@ -68,6 +70,8 @@
 		AC6CC37A2826FFEA00A0B341 /* FunctionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionUI.swift; sourceTree = "<group>"; };
 		AC6CC37C2827038600A0B341 /* SubviewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubviewUI.swift; sourceTree = "<group>"; };
 		AC6CC37E2827087800A0B341 /* BindingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingUI.swift; sourceTree = "<group>"; };
+		AC86CE9E285CBA5E00D7B46A /* SectionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionUI.swift; sourceTree = "<group>"; };
+		AC86CEA1285CC3D200D7B46A /* StateExample.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.View.swift; sourceTree = "<group>"; };
 		AC8B87B4280D838F00AD4C8F /* FrameUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameUI.swift; sourceTree = "<group>"; };
 		AC8B87B6280D867700AD4C8F /* OverlayUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayUI.swift; sourceTree = "<group>"; };
 		AC8B87B8280D970400AD4C8F /* StackUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackUI.swift; sourceTree = "<group>"; };
@@ -129,6 +133,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC86CEA0285CC32600D7B46A /* State */ = {
+			isa = PBXGroup;
+			children = (
+				AC2E5E6E2826CD8E0064649C /* StateUI.swift */,
+				AC86CEA1285CC3D200D7B46A /* StateExample.View.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
 		AC9F8E7228566C660072BCA0 /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +174,8 @@
 		ACA26242280B19B0009977F0 /* SwiftUIBootCamp */ = {
 			isa = PBXGroup;
 			children = (
-				AC9F8E7228566C660072BCA0 /* NavigationView */,
+				AC86CEA0285CC32600D7B46A /* State */,
+				AC91DEB6282809D50087F911 /* AnimationUI.swift */,
 				AC6CC37E2827087800A0B341 /* BindingUI.swift */,
 				AC2E5E6C2826CA320064649C /* ButtonUI.swift */,
 				ACA26278280B208A009977F0 /* ColorUI.swift */,
@@ -174,6 +188,7 @@
 				ACA2627A280B2467009977F0 /* IconsUI.swift */,
 				ACA2627C280B275F009977F0 /* ImageUI.swift */,
 				ACC8DCE22826859300EC0C51 /* LazyUI.swift */,
+				AC9F8E77285670DD0072BCA0 /* ListUI.swift */,
 				AC8B87B6280D867700AD4C8F /* OverlayUI.swift */,
 				ACB3DF03280EAB6E00A1D377 /* PaddingUI.swift */,
 				ACA2624C280B19B1009977F0 /* Persistence.swift */,
@@ -182,17 +197,16 @@
 				ACA26276280B1E88009977F0 /* ShapesUI.swift */,
 				ACB3DF05280EB1F500A1D377 /* SpacerUI.swift */,
 				AC8B87B8280D970400AD4C8F /* StackUI.swift */,
-				AC2E5E6E2826CD8E0064649C /* StateUI.swift */,
 				AC6CC37C2827038600A0B341 /* SubviewUI.swift */,
 				ACA26243280B19B0009977F0 /* SwiftUIBootCampApp.swift */,
+				AC91DEB4282807DA0087F911 /* TernaryUI.swift */,
 				ACA26274280B1A5B009977F0 /* TextUI.swift */,
+				AC9F8E79285675D70072BCA0 /* User.swift */,
 				ACA26247280B19B1009977F0 /* Assets.xcassets */,
+				AC9F8E7228566C660072BCA0 /* NavigationView */,
 				ACA26249280B19B1009977F0 /* Preview Content */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
-				AC91DEB4282807DA0087F911 /* TernaryUI.swift */,
-				AC91DEB6282809D50087F911 /* AnimationUI.swift */,
-				AC9F8E77285670DD0072BCA0 /* ListUI.swift */,
-				AC9F8E79285675D70072BCA0 /* User.swift */,
+				AC86CE9E285CBA5E00D7B46A /* SectionUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -355,6 +369,7 @@
 				AC9F8E7628566CC90072BCA0 /* SecondPage.swift in Sources */,
 				AC9DFA92281470F200DDF57A /* ForEachUI.swift in Sources */,
 				AC8B87B9280D970400AD4C8F /* StackUI.swift in Sources */,
+				AC86CEA2285CC3D200D7B46A /* StateExample.View.swift in Sources */,
 				ACB3DF06280EB1F500A1D377 /* SpacerUI.swift in Sources */,
 				AC9F8E7A285675D70072BCA0 /* User.swift in Sources */,
 				AC9F8E7428566CA10072BCA0 /* FirstPage.swift in Sources */,
@@ -381,6 +396,7 @@
 				AC6CC37B2826FFEA00A0B341 /* FunctionUI.swift in Sources */,
 				AC8B87B5280D838F00AD4C8F /* FrameUI.swift in Sources */,
 				AC6CC37D2827038600A0B341 /* SubviewUI.swift in Sources */,
+				AC86CE9F285CBA5F00D7B46A /* SectionUI.swift in Sources */,
 				AC2E5E6D2826CA320064649C /* ButtonUI.swift in Sources */,
 				AC91DEB7282809D50087F911 /* AnimationUI.swift in Sources */,
 			);
