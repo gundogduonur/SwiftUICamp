@@ -48,6 +48,7 @@
 		ACE66494285D2282005416E7 /* SheetUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE66493285D2282005416E7 /* SheetUI.swift */; };
 		ACE66496285D2332005416E7 /* SecondSheetUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE66495285D2332005416E7 /* SecondSheetUI.swift */; };
 		ACE6649A285D2815005416E7 /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE66499285D2815005416E7 /* ToDoModel.swift */; };
+		ACE6649C285D29DC005416E7 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6649B285D29DC005416E7 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		ACE66493285D2282005416E7 /* SheetUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetUI.swift; sourceTree = "<group>"; };
 		ACE66495285D2332005416E7 /* SecondSheetUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSheetUI.swift; sourceTree = "<group>"; };
 		ACE66499285D2815005416E7 /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
+		ACE6649B285D29DC005416E7 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				ACE66499285D2815005416E7 /* ToDoModel.swift */,
+				ACE6649B285D29DC005416E7 /* ToDo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				AC8B87B7280D867700AD4C8F /* OverlayUI.swift in Sources */,
 				ACA26277280B1E88009977F0 /* ShapesUI.swift in Sources */,
 				ACC8DCE528268DB100EC0C51 /* SafeAreaUI.swift in Sources */,
+				ACE6649C285D29DC005416E7 /* ToDo.swift in Sources */,
 				AC6CC37B2826FFEA00A0B341 /* FunctionUI.swift in Sources */,
 				AC8B87B5280D838F00AD4C8F /* FrameUI.swift in Sources */,
 				AC6CC37D2827038600A0B341 /* SubviewUI.swift in Sources */,
