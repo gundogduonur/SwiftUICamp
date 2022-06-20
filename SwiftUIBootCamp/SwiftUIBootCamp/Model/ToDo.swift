@@ -13,7 +13,7 @@ struct ToDo: View {
         List(todoArray)
         {
             value in
-            NavigationLink(destination: DescriptionUI(),
+            NavigationLink(destination: DescriptionUI(data: value),
                            label: {Text(value.title)})
         }.navigationTitle(Text("To Do"))
             

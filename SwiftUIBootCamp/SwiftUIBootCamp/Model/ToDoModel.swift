@@ -13,6 +13,6 @@ struct ToDoModel : Identifiable
     var description : String
 }
 var firstTask = ToDoModel(title: "Design", description: "LoginPage")
-var secondTask = ToDoModel(title: "Develop", description: "LoginPage")
+var secondTask = ToDoModel(title: "Develop", description: "Login")
 var todoArray = [firstTask,secondTask]
 
