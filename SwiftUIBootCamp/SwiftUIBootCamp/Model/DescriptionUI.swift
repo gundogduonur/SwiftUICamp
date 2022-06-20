@@ -10,7 +10,14 @@ import SwiftUI
 struct DescriptionUI: View {
     var data : ToDoModel
     var body: some View {
-        Text(data.description)
+        VStack{
+            Text(data.title)
+                .padding()
+                .font(.largeTitle)
+            Text(data.description)
+                .font(.body)
+        }
+       
     }
 }
 
