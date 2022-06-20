@@ -166,10 +166,10 @@
 		ACA26237280B19B0009977F0 = {
 			isa = PBXGroup;
 			children = (
+				ACA26241280B19B0009977F0 /* Products */,
 				ACA26242280B19B0009977F0 /* SwiftUIBootCamp */,
 				ACA26258280B19B1009977F0 /* SwiftUIBootCampTests */,
 				ACA26262280B19B1009977F0 /* SwiftUIBootCampUITests */,
-				ACA26241280B19B0009977F0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +203,7 @@
 				AC8B87B6280D867700AD4C8F /* OverlayUI.swift */,
 				ACB3DF03280EAB6E00A1D377 /* PaddingUI.swift */,
 				ACA2624C280B19B1009977F0 /* Persistence.swift */,
+				AC7D59862860EF020036635B /* ProgressViewUI.swift */,
 				ACC8DCE428268DB100EC0C51 /* SafeAreaUI.swift */,
 				AC9DFA932814764000DDF57A /* ScrollViewUI.swift */,
 				AC86CE9E285CBA5E00D7B46A /* SectionUI.swift */,
@@ -221,7 +222,6 @@
 				ACE66497285D2509005416E7 /* Sheet */,
 				AC86CEA0285CC32600D7B46A /* State */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
-				AC7D59862860EF020036635B /* ProgressViewUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
