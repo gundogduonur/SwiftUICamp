@@ -9,10 +9,14 @@ import SwiftUI
 
 struct ToDo: View {
     var body: some View {
+        NavigationView{
         List(todoArray)
         {
             value in
-            Text(value.title)
+            NavigationLink(destination: DescriptionUI(),
+                           label: {Text(value.title)})
+        }.navigationTitle(Text("To Do"))
+            
         }
     }
 }

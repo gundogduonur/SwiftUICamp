@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC2E5E6D2826CA320064649C /* ButtonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E5E6C2826CA320064649C /* ButtonUI.swift */; };
 		AC2E5E6F2826CD8E0064649C /* StateUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E5E6E2826CD8E0064649C /* StateUI.swift */; };
+		AC419CB228608438006F904B /* DescriptionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC419CB128608438006F904B /* DescriptionUI.swift */; };
 		AC6CC37B2826FFEA00A0B341 /* FunctionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37A2826FFEA00A0B341 /* FunctionUI.swift */; };
 		AC6CC37D2827038600A0B341 /* SubviewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37C2827038600A0B341 /* SubviewUI.swift */; };
 		AC6CC37F2827087900A0B341 /* BindingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37E2827087800A0B341 /* BindingUI.swift */; };
@@ -71,6 +72,7 @@
 /* Begin PBXFileReference section */
 		AC2E5E6C2826CA320064649C /* ButtonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUI.swift; sourceTree = "<group>"; };
 		AC2E5E6E2826CD8E0064649C /* StateUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateUI.swift; sourceTree = "<group>"; };
+		AC419CB128608438006F904B /* DescriptionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionUI.swift; sourceTree = "<group>"; };
 		AC6CC37A2826FFEA00A0B341 /* FunctionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionUI.swift; sourceTree = "<group>"; };
 		AC6CC37C2827038600A0B341 /* SubviewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubviewUI.swift; sourceTree = "<group>"; };
 		AC6CC37E2827087800A0B341 /* BindingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingUI.swift; sourceTree = "<group>"; };
@@ -182,7 +184,6 @@
 		ACA26242280B19B0009977F0 /* SwiftUIBootCamp */ = {
 			isa = PBXGroup;
 			children = (
-				ACE66498285D2802005416E7 /* Model */,
 				AC91DEB6282809D50087F911 /* AnimationUI.swift */,
 				AC6CC37E2827087800A0B341 /* BindingUI.swift */,
 				AC2E5E6C2826CA320064649C /* ButtonUI.swift */,
@@ -212,6 +213,7 @@
 				ACA26274280B1A5B009977F0 /* TextUI.swift */,
 				AC9F8E79285675D70072BCA0 /* User.swift */,
 				ACA26247280B19B1009977F0 /* Assets.xcassets */,
+				ACE66498285D2802005416E7 /* Model */,
 				AC9F8E7228566C660072BCA0 /* NavigationView */,
 				ACA26249280B19B1009977F0 /* Preview Content */,
 				ACE66497285D2509005416E7 /* Sheet */,
@@ -260,6 +262,7 @@
 			children = (
 				ACE66499285D2815005416E7 /* ToDoModel.swift */,
 				ACE6649B285D29DC005416E7 /* ToDo.swift */,
+				AC419CB128608438006F904B /* DescriptionUI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				AC2E5E6F2826CD8E0064649C /* StateUI.swift in Sources */,
 				ACE66494285D2282005416E7 /* SheetUI.swift in Sources */,
 				AC9F8E78285670DD0072BCA0 /* ListUI.swift in Sources */,
+				AC419CB228608438006F904B /* DescriptionUI.swift in Sources */,
 				ACA26275280B1A5B009977F0 /* TextUI.swift in Sources */,
 				ACA26250280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld in Sources */,
 				ACA2627B280B2467009977F0 /* IconsUI.swift in Sources */,
