@@ -11,6 +11,7 @@
 		AC2E5E6D2826CA320064649C /* ButtonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E5E6C2826CA320064649C /* ButtonUI.swift */; };
 		AC2E5E6F2826CD8E0064649C /* StateUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E5E6E2826CD8E0064649C /* StateUI.swift */; };
 		AC419CB228608438006F904B /* DescriptionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC419CB128608438006F904B /* DescriptionUI.swift */; };
+		AC62FA6228650EBB005DA341 /* TextEditorUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62FA6128650EBB005DA341 /* TextEditorUI.swift */; };
 		AC6CC37B2826FFEA00A0B341 /* FunctionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37A2826FFEA00A0B341 /* FunctionUI.swift */; };
 		AC6CC37D2827038600A0B341 /* SubviewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37C2827038600A0B341 /* SubviewUI.swift */; };
 		AC6CC37F2827087900A0B341 /* BindingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37E2827087800A0B341 /* BindingUI.swift */; };
@@ -76,6 +77,7 @@
 		AC2E5E6C2826CA320064649C /* ButtonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUI.swift; sourceTree = "<group>"; };
 		AC2E5E6E2826CD8E0064649C /* StateUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateUI.swift; sourceTree = "<group>"; };
 		AC419CB128608438006F904B /* DescriptionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionUI.swift; sourceTree = "<group>"; };
+		AC62FA6128650EBB005DA341 /* TextEditorUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorUI.swift; sourceTree = "<group>"; };
 		AC6CC37A2826FFEA00A0B341 /* FunctionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionUI.swift; sourceTree = "<group>"; };
 		AC6CC37C2827038600A0B341 /* SubviewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubviewUI.swift; sourceTree = "<group>"; };
 		AC6CC37E2827087800A0B341 /* BindingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingUI.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				AC86CEA0285CC32600D7B46A /* State */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
 				AC21952C28622BA700407627 /* TabViewUI.swift */,
+				AC62FA6128650EBB005DA341 /* TextEditorUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				ACC8DCE32826859300EC0C51 /* LazyUI.swift in Sources */,
 				ACE6649A285D2815005416E7 /* ToDoModel.swift in Sources */,
 				ACA26246280B19B0009977F0 /* ContentView.swift in Sources */,
+				AC62FA6228650EBB005DA341 /* TextEditorUI.swift in Sources */,
 				AC91DEB32828026F0087F911 /* ConditionUI.swift in Sources */,
 				ACA26244280B19B0009977F0 /* SwiftUIBootCampApp.swift in Sources */,
 				AC9DFA942814764000DDF57A /* ScrollViewUI.swift in Sources */,
