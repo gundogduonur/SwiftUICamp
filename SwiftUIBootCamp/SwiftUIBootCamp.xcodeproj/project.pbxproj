@@ -12,6 +12,7 @@
 		AC2E5E6F2826CD8E0064649C /* StateUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E5E6E2826CD8E0064649C /* StateUI.swift */; };
 		AC419CB228608438006F904B /* DescriptionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC419CB128608438006F904B /* DescriptionUI.swift */; };
 		AC62FA6228650EBB005DA341 /* TextEditorUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62FA6128650EBB005DA341 /* TextEditorUI.swift */; };
+		AC62FA6428651051005DA341 /* ContextMenuUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC62FA6328651051005DA341 /* ContextMenuUI.swift */; };
 		AC6CC37B2826FFEA00A0B341 /* FunctionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37A2826FFEA00A0B341 /* FunctionUI.swift */; };
 		AC6CC37D2827038600A0B341 /* SubviewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37C2827038600A0B341 /* SubviewUI.swift */; };
 		AC6CC37F2827087900A0B341 /* BindingUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6CC37E2827087800A0B341 /* BindingUI.swift */; };
@@ -78,6 +79,7 @@
 		AC2E5E6E2826CD8E0064649C /* StateUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateUI.swift; sourceTree = "<group>"; };
 		AC419CB128608438006F904B /* DescriptionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionUI.swift; sourceTree = "<group>"; };
 		AC62FA6128650EBB005DA341 /* TextEditorUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorUI.swift; sourceTree = "<group>"; };
+		AC62FA6328651051005DA341 /* ContextMenuUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuUI.swift; sourceTree = "<group>"; };
 		AC6CC37A2826FFEA00A0B341 /* FunctionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionUI.swift; sourceTree = "<group>"; };
 		AC6CC37C2827038600A0B341 /* SubviewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubviewUI.swift; sourceTree = "<group>"; };
 		AC6CC37E2827087800A0B341 /* BindingUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingUI.swift; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
 				AC21952C28622BA700407627 /* TabViewUI.swift */,
 				AC62FA6128650EBB005DA341 /* TextEditorUI.swift */,
+				AC62FA6328651051005DA341 /* ContextMenuUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				ACC8DCE528268DB100EC0C51 /* SafeAreaUI.swift in Sources */,
 				ACE6649C285D29DC005416E7 /* ToDo.swift in Sources */,
 				AC6CC37B2826FFEA00A0B341 /* FunctionUI.swift in Sources */,
+				AC62FA6428651051005DA341 /* ContextMenuUI.swift in Sources */,
 				AC8B87B5280D838F00AD4C8F /* FrameUI.swift in Sources */,
 				AC6CC37D2827038600A0B341 /* SubviewUI.swift in Sources */,
 				AC86CE9F285CBA5F00D7B46A /* SectionUI.swift in Sources */,
