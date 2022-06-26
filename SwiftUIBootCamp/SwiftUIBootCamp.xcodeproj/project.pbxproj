@@ -26,6 +26,7 @@
 		AC91DEB32828026F0087F911 /* ConditionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC91DEB22828026F0087F911 /* ConditionUI.swift */; };
 		AC91DEB5282807DA0087F911 /* TernaryUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC91DEB4282807DA0087F911 /* TernaryUI.swift */; };
 		AC91DEB7282809D50087F911 /* AnimationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC91DEB6282809D50087F911 /* AnimationUI.swift */; };
+		AC9D5F212868B0B100D98E16 /* ColorPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D5F202868B0B100D98E16 /* ColorPickerUI.swift */; };
 		AC9DFA92281470F200DDF57A /* ForEachUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DFA91281470F200DDF57A /* ForEachUI.swift */; };
 		AC9DFA942814764000DDF57A /* ScrollViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DFA932814764000DDF57A /* ScrollViewUI.swift */; };
 		AC9F8E7428566CA10072BCA0 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F8E7328566CA10072BCA0 /* FirstPage.swift */; };
@@ -94,6 +95,7 @@
 		AC91DEB22828026F0087F911 /* ConditionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionUI.swift; sourceTree = "<group>"; };
 		AC91DEB4282807DA0087F911 /* TernaryUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryUI.swift; sourceTree = "<group>"; };
 		AC91DEB6282809D50087F911 /* AnimationUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUI.swift; sourceTree = "<group>"; };
+		AC9D5F202868B0B100D98E16 /* ColorPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerUI.swift; sourceTree = "<group>"; };
 		AC9DFA91281470F200DDF57A /* ForEachUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachUI.swift; sourceTree = "<group>"; };
 		AC9DFA932814764000DDF57A /* ScrollViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUI.swift; sourceTree = "<group>"; };
 		AC9F8E7328566CA10072BCA0 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				ACA26278280B208A009977F0 /* ColorUI.swift */,
 				AC91DEB22828026F0087F911 /* ConditionUI.swift */,
 				ACA26245280B19B0009977F0 /* ContentView.swift */,
+				AC62FA6328651051005DA341 /* ContextMenuUI.swift */,
 				ACB3DF07280ECFA300A1D377 /* EnumUI.swift */,
 				AC9DFA91281470F200DDF57A /* ForEachUI.swift */,
 				AC8B87B4280D838F00AD4C8F /* FrameUI.swift */,
@@ -211,6 +214,7 @@
 				AC8B87B6280D867700AD4C8F /* OverlayUI.swift */,
 				ACB3DF03280EAB6E00A1D377 /* PaddingUI.swift */,
 				ACA2624C280B19B1009977F0 /* Persistence.swift */,
+				AC17C9AE2868AE070034626F /* PickerUI.swift */,
 				AC7D59862860EF020036635B /* ProgressViewUI.swift */,
 				ACC8DCE428268DB100EC0C51 /* SafeAreaUI.swift */,
 				AC9DFA932814764000DDF57A /* ScrollViewUI.swift */,
@@ -220,7 +224,9 @@
 				AC8B87B8280D970400AD4C8F /* StackUI.swift */,
 				AC6CC37C2827038600A0B341 /* SubviewUI.swift */,
 				ACA26243280B19B0009977F0 /* SwiftUIBootCampApp.swift */,
+				AC21952C28622BA700407627 /* TabViewUI.swift */,
 				AC91DEB4282807DA0087F911 /* TernaryUI.swift */,
+				AC62FA6128650EBB005DA341 /* TextEditorUI.swift */,
 				ACA26274280B1A5B009977F0 /* TextUI.swift */,
 				AC9F8E79285675D70072BCA0 /* User.swift */,
 				ACA26247280B19B1009977F0 /* Assets.xcassets */,
@@ -230,10 +236,7 @@
 				ACE66497285D2509005416E7 /* Sheet */,
 				AC86CEA0285CC32600D7B46A /* State */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
-				AC21952C28622BA700407627 /* TabViewUI.swift */,
-				AC62FA6128650EBB005DA341 /* TextEditorUI.swift */,
-				AC62FA6328651051005DA341 /* ContextMenuUI.swift */,
-				AC17C9AE2868AE070034626F /* PickerUI.swift */,
+				AC9D5F202868B0B100D98E16 /* ColorPickerUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				AC8B87B9280D970400AD4C8F /* StackUI.swift in Sources */,
 				AC86CEA2285CC3D200D7B46A /* StateExample.View.swift in Sources */,
 				ACB3DF06280EB1F500A1D377 /* SpacerUI.swift in Sources */,
+				AC9D5F212868B0B100D98E16 /* ColorPickerUI.swift in Sources */,
 				ACE66496285D2332005416E7 /* SecondSheetUI.swift in Sources */,
 				AC9F8E7A285675D70072BCA0 /* User.swift in Sources */,
 				AC7D59872860EF020036635B /* ProgressViewUI.swift in Sources */,
