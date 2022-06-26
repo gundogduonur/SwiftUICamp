@@ -27,6 +27,7 @@
 		AC91DEB5282807DA0087F911 /* TernaryUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC91DEB4282807DA0087F911 /* TernaryUI.swift */; };
 		AC91DEB7282809D50087F911 /* AnimationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC91DEB6282809D50087F911 /* AnimationUI.swift */; };
 		AC9D5F212868B0B100D98E16 /* ColorPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D5F202868B0B100D98E16 /* ColorPickerUI.swift */; };
+		AC9D5F232868B18600D98E16 /* DatePickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D5F222868B18600D98E16 /* DatePickerUI.swift */; };
 		AC9DFA92281470F200DDF57A /* ForEachUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DFA91281470F200DDF57A /* ForEachUI.swift */; };
 		AC9DFA942814764000DDF57A /* ScrollViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DFA932814764000DDF57A /* ScrollViewUI.swift */; };
 		AC9F8E7428566CA10072BCA0 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F8E7328566CA10072BCA0 /* FirstPage.swift */; };
@@ -96,6 +97,7 @@
 		AC91DEB4282807DA0087F911 /* TernaryUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryUI.swift; sourceTree = "<group>"; };
 		AC91DEB6282809D50087F911 /* AnimationUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUI.swift; sourceTree = "<group>"; };
 		AC9D5F202868B0B100D98E16 /* ColorPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerUI.swift; sourceTree = "<group>"; };
+		AC9D5F222868B18600D98E16 /* DatePickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerUI.swift; sourceTree = "<group>"; };
 		AC9DFA91281470F200DDF57A /* ForEachUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachUI.swift; sourceTree = "<group>"; };
 		AC9DFA932814764000DDF57A /* ScrollViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUI.swift; sourceTree = "<group>"; };
 		AC9F8E7328566CA10072BCA0 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				AC86CEA0285CC32600D7B46A /* State */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
 				AC9D5F202868B0B100D98E16 /* ColorPickerUI.swift */,
+				AC9D5F222868B18600D98E16 /* DatePickerUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 			files = (
 				AC9F8E7628566CC90072BCA0 /* SecondPage.swift in Sources */,
 				AC9DFA92281470F200DDF57A /* ForEachUI.swift in Sources */,
+				AC9D5F232868B18600D98E16 /* DatePickerUI.swift in Sources */,
 				AC8B87B9280D970400AD4C8F /* StackUI.swift in Sources */,
 				AC86CEA2285CC3D200D7B46A /* StateExample.View.swift in Sources */,
 				ACB3DF06280EB1F500A1D377 /* SpacerUI.swift in Sources */,
