@@ -29,6 +29,7 @@
 		AC9D5F212868B0B100D98E16 /* ColorPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D5F202868B0B100D98E16 /* ColorPickerUI.swift */; };
 		AC9D5F232868B18600D98E16 /* DatePickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D5F222868B18600D98E16 /* DatePickerUI.swift */; };
 		AC9D5F252868B35B00D98E16 /* StepperUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D5F242868B35B00D98E16 /* StepperUI.swift */; };
+		AC9D5F272868B4DF00D98E16 /* SliderUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9D5F262868B4DF00D98E16 /* SliderUI.swift */; };
 		AC9DFA92281470F200DDF57A /* ForEachUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DFA91281470F200DDF57A /* ForEachUI.swift */; };
 		AC9DFA942814764000DDF57A /* ScrollViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DFA932814764000DDF57A /* ScrollViewUI.swift */; };
 		AC9F8E7428566CA10072BCA0 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F8E7328566CA10072BCA0 /* FirstPage.swift */; };
@@ -100,6 +101,7 @@
 		AC9D5F202868B0B100D98E16 /* ColorPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerUI.swift; sourceTree = "<group>"; };
 		AC9D5F222868B18600D98E16 /* DatePickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerUI.swift; sourceTree = "<group>"; };
 		AC9D5F242868B35B00D98E16 /* StepperUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperUI.swift; sourceTree = "<group>"; };
+		AC9D5F262868B4DF00D98E16 /* SliderUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUI.swift; sourceTree = "<group>"; };
 		AC9DFA91281470F200DDF57A /* ForEachUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachUI.swift; sourceTree = "<group>"; };
 		AC9DFA932814764000DDF57A /* ScrollViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewUI.swift; sourceTree = "<group>"; };
 		AC9F8E7328566CA10072BCA0 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				AC86CEA0285CC32600D7B46A /* State */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
 				AC9D5F242868B35B00D98E16 /* StepperUI.swift */,
+				AC9D5F262868B4DF00D98E16 /* SliderUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				AC17C9AF2868AE070034626F /* PickerUI.swift in Sources */,
 				AC21952D28622BA700407627 /* TabViewUI.swift in Sources */,
 				ACC8DCE32826859300EC0C51 /* LazyUI.swift in Sources */,
+				AC9D5F272868B4DF00D98E16 /* SliderUI.swift in Sources */,
 				AC9D5F252868B35B00D98E16 /* StepperUI.swift in Sources */,
 				ACE6649A285D2815005416E7 /* ToDoModel.swift in Sources */,
 				ACA26246280B19B0009977F0 /* ContentView.swift in Sources */,
