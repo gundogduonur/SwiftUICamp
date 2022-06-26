@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC17C9AF2868AE070034626F /* PickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC17C9AE2868AE070034626F /* PickerUI.swift */; };
 		AC21952D28622BA700407627 /* TabViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC21952C28622BA700407627 /* TabViewUI.swift */; };
 		AC2E5E6D2826CA320064649C /* ButtonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E5E6C2826CA320064649C /* ButtonUI.swift */; };
 		AC2E5E6F2826CD8E0064649C /* StateUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E5E6E2826CD8E0064649C /* StateUI.swift */; };
@@ -74,6 +75,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC17C9AE2868AE070034626F /* PickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerUI.swift; sourceTree = "<group>"; };
 		AC21952C28622BA700407627 /* TabViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewUI.swift; sourceTree = "<group>"; };
 		AC2E5E6C2826CA320064649C /* ButtonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUI.swift; sourceTree = "<group>"; };
 		AC2E5E6E2826CD8E0064649C /* StateUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateUI.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				AC21952C28622BA700407627 /* TabViewUI.swift */,
 				AC62FA6128650EBB005DA341 /* TextEditorUI.swift */,
 				AC62FA6328651051005DA341 /* ContextMenuUI.swift */,
+				AC17C9AE2868AE070034626F /* PickerUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				ACA26250280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld in Sources */,
 				ACA2627B280B2467009977F0 /* IconsUI.swift in Sources */,
 				ACA2624D280B19B1009977F0 /* Persistence.swift in Sources */,
+				AC17C9AF2868AE070034626F /* PickerUI.swift in Sources */,
 				AC21952D28622BA700407627 /* TabViewUI.swift in Sources */,
 				ACC8DCE32826859300EC0C51 /* LazyUI.swift in Sources */,
 				ACE6649A285D2815005416E7 /* ToDoModel.swift in Sources */,
