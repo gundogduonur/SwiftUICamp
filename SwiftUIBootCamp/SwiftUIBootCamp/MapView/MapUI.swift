@@ -17,7 +17,11 @@ struct MapUI: View {
           span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
        
     var body: some View {
-        Map(coordinateRegion: $coordinateRegion)
+        Map(coordinateRegion: $coordinateRegion,annotationItems: palaces)
+        {
+            place in
+            MapMarker(coordinate: place.coordinate, tint: .red)
+        }
             .ignoresSafeArea(.all)
     }
 }
