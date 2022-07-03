@@ -36,6 +36,7 @@
 		AC9F8E7628566CC90072BCA0 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F8E7528566CC90072BCA0 /* SecondPage.swift */; };
 		AC9F8E78285670DD0072BCA0 /* ListUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F8E77285670DD0072BCA0 /* ListUI.swift */; };
 		AC9F8E7A285675D70072BCA0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F8E79285675D70072BCA0 /* User.swift */; };
+		ACA0E2282871E810001121AD /* PalaceMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0E2272871E810001121AD /* PalaceMap.swift */; };
 		ACA26244280B19B0009977F0 /* SwiftUIBootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA26243280B19B0009977F0 /* SwiftUIBootCampApp.swift */; };
 		ACA26246280B19B0009977F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA26245280B19B0009977F0 /* ContentView.swift */; };
 		ACA26248280B19B1009977F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA26247280B19B1009977F0 /* Assets.xcassets */; };
@@ -109,6 +110,7 @@
 		AC9F8E7528566CC90072BCA0 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
 		AC9F8E77285670DD0072BCA0 /* ListUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUI.swift; sourceTree = "<group>"; };
 		AC9F8E79285675D70072BCA0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ACA0E2272871E810001121AD /* PalaceMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalaceMap.swift; sourceTree = "<group>"; };
 		ACA26240280B19B0009977F0 /* SwiftUIBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA26243280B19B0009977F0 /* SwiftUIBootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampApp.swift; sourceTree = "<group>"; };
 		ACA26245280B19B0009977F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				ACF36D51286F22390047685B /* MapUI.swift */,
+				ACA0E2272871E810001121AD /* PalaceMap.swift */,
 			);
 			path = MapView;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				AC9F8E7628566CC90072BCA0 /* SecondPage.swift in Sources */,
 				AC9DFA92281470F200DDF57A /* ForEachUI.swift in Sources */,
 				AC9D5F232868B18600D98E16 /* DatePickerUI.swift in Sources */,
+				ACA0E2282871E810001121AD /* PalaceMap.swift in Sources */,
 				AC8B87B9280D970400AD4C8F /* StackUI.swift in Sources */,
 				AC86CEA2285CC3D200D7B46A /* StateExample.View.swift in Sources */,
 				ACB3DF06280EB1F500A1D377 /* SpacerUI.swift in Sources */,
