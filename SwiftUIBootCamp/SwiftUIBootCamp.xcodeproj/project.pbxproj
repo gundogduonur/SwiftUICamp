@@ -163,6 +163,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC13279928705E1E0011404F /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				ACF36D51286F22390047685B /* MapUI.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
 		AC86CEA0285CC32600D7B46A /* State */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +212,7 @@
 		ACA26242280B19B0009977F0 /* SwiftUIBootCamp */ = {
 			isa = PBXGroup;
 			children = (
+				AC13279928705E1E0011404F /* MapView */,
 				AC91DEB6282809D50087F911 /* AnimationUI.swift */,
 				AC6CC37E2827087800A0B341 /* BindingUI.swift */,
 				AC2E5E6C2826CA320064649C /* ButtonUI.swift */,
@@ -248,7 +257,6 @@
 				ACE66497285D2509005416E7 /* Sheet */,
 				AC86CEA0285CC32600D7B46A /* State */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
-				ACF36D51286F22390047685B /* MapUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
