@@ -18,6 +18,22 @@ struct SwipeActionUI: View {
                 {
                     product in
                     Text(product)
+                        .swipeActions()
+                    {
+
+                        Button(role: .destructive) {
+                            
+                        } label: {
+                            Label("Delete", systemImage: "trash.fill")
+                        }
+                        Button
+                        {
+                            
+                        } label : {
+                            Label("Add",systemImage: "plus")
+                        }
+                        .tint(.blue)
+                    }
                 }
             }
         }
