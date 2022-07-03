@@ -37,6 +37,7 @@
 		AC9F8E78285670DD0072BCA0 /* ListUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F8E77285670DD0072BCA0 /* ListUI.swift */; };
 		AC9F8E7A285675D70072BCA0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9F8E79285675D70072BCA0 /* User.swift */; };
 		ACA0E2282871E810001121AD /* PalaceMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0E2272871E810001121AD /* PalaceMap.swift */; };
+		ACA0E22A2871ED39001121AD /* SwipeActionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA0E2292871ED39001121AD /* SwipeActionUI.swift */; };
 		ACA26244280B19B0009977F0 /* SwiftUIBootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA26243280B19B0009977F0 /* SwiftUIBootCampApp.swift */; };
 		ACA26246280B19B0009977F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA26245280B19B0009977F0 /* ContentView.swift */; };
 		ACA26248280B19B1009977F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA26247280B19B1009977F0 /* Assets.xcassets */; };
@@ -111,6 +112,7 @@
 		AC9F8E77285670DD0072BCA0 /* ListUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUI.swift; sourceTree = "<group>"; };
 		AC9F8E79285675D70072BCA0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ACA0E2272871E810001121AD /* PalaceMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalaceMap.swift; sourceTree = "<group>"; };
+		ACA0E2292871ED39001121AD /* SwipeActionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionUI.swift; sourceTree = "<group>"; };
 		ACA26240280B19B0009977F0 /* SwiftUIBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA26243280B19B0009977F0 /* SwiftUIBootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBootCampApp.swift; sourceTree = "<group>"; };
 		ACA26245280B19B0009977F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -215,7 +217,6 @@
 		ACA26242280B19B0009977F0 /* SwiftUIBootCamp */ = {
 			isa = PBXGroup;
 			children = (
-				AC13279928705E1E0011404F /* MapView */,
 				AC91DEB6282809D50087F911 /* AnimationUI.swift */,
 				AC6CC37E2827087800A0B341 /* BindingUI.swift */,
 				AC2E5E6C2826CA320064649C /* ButtonUI.swift */,
@@ -254,12 +255,14 @@
 				ACA26274280B1A5B009977F0 /* TextUI.swift */,
 				AC9F8E79285675D70072BCA0 /* User.swift */,
 				ACA26247280B19B1009977F0 /* Assets.xcassets */,
+				AC13279928705E1E0011404F /* MapView */,
 				ACE66498285D2802005416E7 /* Model */,
 				AC9F8E7228566C660072BCA0 /* NavigationView */,
 				ACA26249280B19B1009977F0 /* Preview Content */,
 				ACE66497285D2509005416E7 /* Sheet */,
 				AC86CEA0285CC32600D7B46A /* State */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
+				ACA0E2292871ED39001121AD /* SwipeActionUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 				ACA2627B280B2467009977F0 /* IconsUI.swift in Sources */,
 				ACA2624D280B19B1009977F0 /* Persistence.swift in Sources */,
 				AC17C9AF2868AE070034626F /* PickerUI.swift in Sources */,
+				ACA0E22A2871ED39001121AD /* SwipeActionUI.swift in Sources */,
 				AC21952D28622BA700407627 /* TabViewUI.swift in Sources */,
 				ACC8DCE32826859300EC0C51 /* LazyUI.swift in Sources */,
 				AC9D5F272868B4DF00D98E16 /* SliderUI.swift in Sources */,
