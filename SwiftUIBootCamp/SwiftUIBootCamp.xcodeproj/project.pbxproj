@@ -223,12 +223,7 @@
 				ACA26243280B19B0009977F0 /* SwiftUIBootCampApp.swift */,
 				ACA2624C280B19B1009977F0 /* Persistence.swift */,
 				ACA26247280B19B1009977F0 /* Assets.xcassets */,
-				AC13279928705E1E0011404F /* MapView */,
-				ACE66498285D2802005416E7 /* Model */,
-				AC9F8E7228566C660072BCA0 /* NavigationView */,
 				ACA26249280B19B1009977F0 /* Preview Content */,
-				ACE66497285D2509005416E7 /* Sheet */,
-				AC86CEA0285CC32600D7B46A /* State */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
 			);
 			path = SwiftUIBootCamp;
@@ -262,6 +257,11 @@
 		ACE5689F2874D3D3009B7C26 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				ACE66497285D2509005416E7 /* Sheet */,
+				AC86CEA0285CC32600D7B46A /* State */,
+				AC9F8E7228566C660072BCA0 /* NavigationView */,
+				ACE66498285D2802005416E7 /* Model */,
+				AC13279928705E1E0011404F /* MapView */,
 				ACA0E2292871ED39001121AD /* SwipeActionUI.swift */,
 				ACE5689D2874D0EC009B7C26 /* BadgeUI.swift */,
 				AC21952C28622BA700407627 /* TabViewUI.swift */,
