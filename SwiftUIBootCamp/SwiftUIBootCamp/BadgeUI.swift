@@ -16,6 +16,8 @@ struct BadgeUI: View {
             {
                 Text("Apple")
                     .badge(randomNumber)
+                Text("SwiftUI")
+                    .badge("Coding")
               
             }
         }
