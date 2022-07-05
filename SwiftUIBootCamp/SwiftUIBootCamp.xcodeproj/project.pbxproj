@@ -57,6 +57,7 @@
 		ACB3DF08280ECFA300A1D377 /* EnumUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB3DF07280ECFA300A1D377 /* EnumUI.swift */; };
 		ACC8DCE32826859300EC0C51 /* LazyUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8DCE22826859300EC0C51 /* LazyUI.swift */; };
 		ACC8DCE528268DB100EC0C51 /* SafeAreaUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC8DCE428268DB100EC0C51 /* SafeAreaUI.swift */; };
+		ACE5689E2874D0EC009B7C26 /* BadgeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE5689D2874D0EC009B7C26 /* BadgeUI.swift */; };
 		ACE66494285D2282005416E7 /* SheetUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE66493285D2282005416E7 /* SheetUI.swift */; };
 		ACE66496285D2332005416E7 /* SecondSheetUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE66495285D2332005416E7 /* SecondSheetUI.swift */; };
 		ACE6649A285D2815005416E7 /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE66499285D2815005416E7 /* ToDoModel.swift */; };
@@ -135,6 +136,7 @@
 		ACB3DF07280ECFA300A1D377 /* EnumUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumUI.swift; sourceTree = "<group>"; };
 		ACC8DCE22826859300EC0C51 /* LazyUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyUI.swift; sourceTree = "<group>"; };
 		ACC8DCE428268DB100EC0C51 /* SafeAreaUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaUI.swift; sourceTree = "<group>"; };
+		ACE5689D2874D0EC009B7C26 /* BadgeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeUI.swift; sourceTree = "<group>"; };
 		ACE66493285D2282005416E7 /* SheetUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetUI.swift; sourceTree = "<group>"; };
 		ACE66495285D2332005416E7 /* SecondSheetUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondSheetUI.swift; sourceTree = "<group>"; };
 		ACE66499285D2815005416E7 /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 				AC86CEA0285CC32600D7B46A /* State */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
 				ACA0E2292871ED39001121AD /* SwipeActionUI.swift */,
+				ACE5689D2874D0EC009B7C26 /* BadgeUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 			files = (
 				AC9F8E7628566CC90072BCA0 /* SecondPage.swift in Sources */,
 				AC9DFA92281470F200DDF57A /* ForEachUI.swift in Sources */,
+				ACE5689E2874D0EC009B7C26 /* BadgeUI.swift in Sources */,
 				AC9D5F232868B18600D98E16 /* DatePickerUI.swift in Sources */,
 				ACA0E2282871E810001121AD /* PalaceMap.swift in Sources */,
 				AC8B87B9280D970400AD4C8F /* StackUI.swift in Sources */,
