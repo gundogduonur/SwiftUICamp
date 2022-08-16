@@ -223,12 +223,48 @@
 		ACA26242280B19B0009977F0 /* SwiftUIBootCamp */ = {
 			isa = PBXGroup;
 			children = (
-				ACE5689F2874D3D3009B7C26 /* UIComponents */,
-				ACA26243280B19B0009977F0 /* SwiftUIBootCampApp.swift */,
+				AC91DEB6282809D50087F911 /* AnimationUI.swift */,
+				AC6CC37E2827087800A0B341 /* BindingUI.swift */,
+				AC2E5E6C2826CA320064649C /* ButtonUI.swift */,
+				AC9D5F202868B0B100D98E16 /* ColorPickerUI.swift */,
+				ACA26278280B208A009977F0 /* ColorUI.swift */,
+				AC91DEB22828026F0087F911 /* ConditionUI.swift */,
+				ACA26245280B19B0009977F0 /* ContentView.swift */,
+				AC62FA6328651051005DA341 /* ContextMenuUI.swift */,
+				AC9D5F222868B18600D98E16 /* DatePickerUI.swift */,
+				ACB3DF07280ECFA300A1D377 /* EnumUI.swift */,
+				AC9DFA91281470F200DDF57A /* ForEachUI.swift */,
+				AC8B87B4280D838F00AD4C8F /* FrameUI.swift */,
+				AC6CC37A2826FFEA00A0B341 /* FunctionUI.swift */,
+				ACA2627A280B2467009977F0 /* IconsUI.swift */,
+				ACA2627C280B275F009977F0 /* ImageUI.swift */,
+				ACC8DCE22826859300EC0C51 /* LazyUI.swift */,
+				AC9F8E77285670DD0072BCA0 /* ListUI.swift */,
+				AC8B87B6280D867700AD4C8F /* OverlayUI.swift */,
+				ACB3DF03280EAB6E00A1D377 /* PaddingUI.swift */,
 				ACA2624C280B19B1009977F0 /* Persistence.swift */,
+				AC17C9AE2868AE070034626F /* PickerUI.swift */,
+				AC7D59862860EF020036635B /* ProgressViewUI.swift */,
+				ACC8DCE428268DB100EC0C51 /* SafeAreaUI.swift */,
+				AC9DFA932814764000DDF57A /* ScrollViewUI.swift */,
+				AC86CE9E285CBA5E00D7B46A /* SectionUI.swift */,
+				ACA26276280B1E88009977F0 /* ShapesUI.swift */,
+				AC9D5F262868B4DF00D98E16 /* SliderUI.swift */,
+				ACB3DF05280EB1F500A1D377 /* SpacerUI.swift */,
+				AC8B87B8280D970400AD4C8F /* StackUI.swift */,
+				AC9D5F242868B35B00D98E16 /* StepperUI.swift */,
+				AC6CC37C2827038600A0B341 /* SubviewUI.swift */,
+				ACA26243280B19B0009977F0 /* SwiftUIBootCampApp.swift */,
+				AC21952C28622BA700407627 /* TabViewUI.swift */,
+				AC91DEB4282807DA0087F911 /* TernaryUI.swift */,
+				AC62FA6128650EBB005DA341 /* TextEditorUI.swift */,
+				ACA26274280B1A5B009977F0 /* TextUI.swift */,
+				AC9F8E79285675D70072BCA0 /* User.swift */,
 				ACA26247280B19B1009977F0 /* Assets.xcassets */,
 				ACA26249280B19B1009977F0 /* Preview Content */,
 				ACA2624E280B19B1009977F0 /* SwiftUIBootCamp.xcdatamodeld */,
+				ACA0E2292871ED39001121AD /* SwipeActionUI.swift */,
+				ACE5689D2874D0EC009B7C26 /* BadgeUI.swift */,
 			);
 			path = SwiftUIBootCamp;
 			sourceTree = "<group>";
@@ -258,6 +294,7 @@
 			path = SwiftUIBootCampUITests;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		ACE5689F2874D3D3009B7C26 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +346,8 @@
 			path = UIComponents;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of 77718f6 (edited)
 		ACE66497285D2509005416E7 /* Sheet */ = {
 			isa = PBXGroup;
 			children = (
